@@ -1,4 +1,3 @@
-import DocumentCard from "@/components/documentCard";
 import { DocumentsProps } from "@/interface";
 import { GetStaticProps, NextPage } from "next";
 import Link from "next/link";
