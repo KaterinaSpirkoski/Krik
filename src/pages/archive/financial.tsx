@@ -2,7 +2,6 @@ import { DocumentsProps } from "@/interface";
 import { GetStaticProps, NextPage } from "next";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { useState } from "react";
 
 interface Props {
   dataProjects: DocumentsProps[];
@@ -11,20 +10,6 @@ interface Props {
 const Financial: NextPage<Props> = ({ dataProjects }) => {
   const { pathname } = useRouter();
 
-  // const [displayedCards, setDisplayedCards] = useState<{
-  //   [year: string]: number;
-  // }>({
-  //   "2023": 4,
-  //   "2022": 4,
-  //   "2021": 4,
-  // });
-
-  // const handleShowMore = (year: string) => {
-  //   setDisplayedCards((prev) => ({
-  //     ...prev,
-  //     [year]: prev[year] + 4,
-  //   }));
-  // };
   return (
     <div className="financial">
       <div className="financial">
@@ -52,56 +37,6 @@ const Financial: NextPage<Props> = ({ dataProjects }) => {
           </Link>
         </div>
       </div>
-      {/* <div className="annual-reports">
-        <h2>2023 година</h2>
-
-        <div className="doc-2023">
-          {dataProjects
-            .filter((report) => report.year === "2023")
-            .slice(0, displayedCards["2023"])
-            .map((report) => (
-              <DocumentCard key={report.id} title={report.title} />
-            ))}
-        </div>
-        <div className="btn-inner">
-          {displayedCards["2023"] <
-            dataProjects.filter((report) => report.year === "2023").length && (
-            <button onClick={() => handleShowMore("2023")}>Види ги сите</button>
-          )}
-        </div>
-
-        <h2>2022 година</h2>
-        <div className="doc-2022">
-          {dataProjects
-            .filter((report) => report.year === "2022")
-            .slice(0, displayedCards["2022"])
-            .map((report) => (
-              <DocumentCard key={report.id} title={report.title} />
-            ))}
-        </div>
-        <div className="btn-inner">
-          {displayedCards["2022"] <
-            dataProjects.filter((report) => report.year === "2022").length && (
-            <button onClick={() => handleShowMore("2022")}>Види ги сите</button>
-          )}
-        </div>
-
-        <h2>2021 година</h2>
-        <div className="doc-2021">
-          {dataProjects
-            .filter((report) => report.year === "2021")
-            .slice(0, displayedCards["2021"])
-            .map((report) => (
-              <DocumentCard key={report.id} title={report.title} />
-            ))}
-        </div>
-        <div className="btn-inner">
-          {displayedCards["2021"] <
-            dataProjects.filter((report) => report.year === "2021").length && (
-            <button onClick={() => handleShowMore("2021")}>Види ги сите</button>
-          )}
-        </div>
-      </div> */}
     </div>
   );
 };
