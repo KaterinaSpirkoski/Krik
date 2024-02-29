@@ -60,18 +60,49 @@ export const getStaticPaths: GetStaticPaths = async () => {
   };
 };
 
+// export const getStaticProps: GetStaticProps = async ({ params }) => {
+//   let teamData: TeamDataProps | null = null;
+//   let menagmentData: TeamDataProps | null = null;
+
+//   if (params?.id) {
+//     const resTeam = await fetch(`http://localhost:5001/ourTeam/${params.id}`);
+//     const resMenagment = await fetch(
+//       `http://localhost:5001/menagment/${params.id}`
+//     );
+
+//     teamData = await resTeam.json().catch(() => null);
+//     menagmentData = await resMenagment.json().catch(() => null);
+//   }
+
+//   return {
+//     props: {
+//       teamData,
+//       menagmentData,
+//     },
+//   };
+// };
+
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   let teamData: TeamDataProps | null = null;
   let menagmentData: TeamDataProps | null = null;
 
   if (params?.id) {
-    const resTeam = await fetch(`http://localhost:5001/ourTeam/${params.id}`);
-    const resMenagment = await fetch(
-      `http://localhost:5001/menagment/${params.id}`
-    );
+    try {
+      const resTeam = await fetch(`http://localhost:5001/ourTeam/${params.id}`);
+      const resMenagment = await fetch(
+        `http://localhost:5001/menagment/${params.id}`
+      );
 
-    teamData = await resTeam.json().catch(() => null);
-    menagmentData = await resMenagment.json().catch(() => null);
+      if (resTeam.ok) {
+        teamData = await resTeam.json();
+      }
+
+      if (resMenagment.ok) {
+        menagmentData = await resMenagment.json();
+      }
+    } catch (error) {
+      console.error("Error fetching data:", error);
+    }
   }
 
   return {
