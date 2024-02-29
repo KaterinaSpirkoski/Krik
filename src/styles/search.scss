@@ -1,0 +1,173 @@
+@import "./abstracts/variables.scss";
+@import "./abstracts/_mixins.scss";
+
+.search-page {
+  color: $text-color-base;
+  padding-top: 100px;
+  @extend %wrap;
+
+  .projects-searched-inner {
+    width: 100%;
+    @extend %display;
+    flex-wrap: wrap;
+    .projects-inner {
+      width: 33%;
+      margin-bottom: 15px;
+      position: relative;
+      @include tablet-styles {
+        width: 50%;
+      }
+
+      @include mobile-l-styles {
+        width: 100%;
+      }
+
+      .img-gallery {
+        width: 90%;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 30px;
+      }
+      .project-name {
+        font-family: $font-family-base;
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
+        color: $text-color-secondary;
+        font-size: 24px;
+        font-weight: $font-weight-medium;
+        padding: 10px 0;
+        background-color: $background-color-thirdary;
+        top: -5px;
+        width: 90%;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+      }
+    }
+  }
+  .products-inner {
+    @extend %display;
+    flex-wrap: wrap;
+
+    .product-card {
+      width: 32%;
+      backdrop-filter: blur(30px);
+      border-radius: 30px;
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+        rgba(0, 0, 0, 0.05) 0px 5px 10px;
+      margin-bottom: 60px;
+
+      @include tablet-styles {
+        width: 48%;
+        margin-right: 10px;
+      }
+
+      @include mobile-l-styles {
+        width: 100%;
+      }
+      img {
+        width: 100%;
+        height: 340px;
+        object-fit: cover;
+        border-radius: 30px;
+      }
+      .text-inner {
+        padding: 20px 20px 40px 20px;
+        position: relative;
+        h3 {
+          @extend %HeadlineM;
+        }
+        p {
+          font-family: $font-family-primary;
+          font-size: $font-size-small;
+          padding: 10px 0;
+        }
+        span {
+          @extend %HeadlineM;
+          padding-bottom: 20px;
+        }
+      }
+      .buy {
+        position: absolute;
+        bottom: -25px;
+        left: 20%;
+        display: flex;
+        justify-content: center;
+
+        .icon-heart {
+          border: 2px solid $text-color-base;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          background-color: $background-color-default-light;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img {
+            width: 40px;
+            height: 40px;
+          }
+        }
+        .clicked {
+          background-color: $background-color-thirdary;
+        }
+        .buy-btn {
+          @extend %ButtonL;
+          padding: 5px 55px;
+          color: $text-color-secondary;
+          margin-right: 10px;
+          &:hover {
+            @extend %btn-on-hover;
+          }
+        }
+      }
+    }
+  }
+  .team-inner {
+    .team-card-inner {
+      .wrapper {
+        @extend %display;
+        width: 100%;
+        @include tablet-styles {
+          flex-direction: column;
+        }
+        img {
+          width: 30%;
+          height: 350px;
+          border-radius: 30px;
+          margin-right: 20px;
+          @include tablet-styles {
+            width: 60%;
+            margin: 0 auto;
+          }
+
+          @include mobile-l-styles {
+            width: 100%;
+          }
+        }
+        .text-card-inner {
+          width: 70%;
+
+          @include tablet-styles {
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 20px;
+          }
+
+          @include mobile-l-styles {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .search-page-wrapper {
+    .description-result {
+      font-size: $font-size-large;
+      text-align: center;
+      font-weight: $font-weight-medium;
+      font-family: $font-family-primary;
+    }
+  }
+}

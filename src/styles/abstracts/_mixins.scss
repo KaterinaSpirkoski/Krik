@@ -1,0 +1,122 @@
+// RESPONSIVE LAPTOP FIRST DESIGN MIXINS
+@mixin four-k-styles {
+  @media (max-width: 2560px) {
+    @content;
+  }
+}
+
+@mixin laptop-l-styles {
+  @media (max-width: 1440px) {
+    @content;
+  }
+}
+
+@mixin laptop-m-styles {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin tablet-styles {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mobile-l-styles {
+  @media (max-width: 426px) {
+    @content;
+  }
+}
+
+@mixin mobile-m-styles {
+  @media (max-width: 375px) {
+    @content;
+  }
+}
+
+@mixin mobile-s-styles {
+  @media (max-width: 320px) {
+    @content;
+  }
+}
+
+%wrap {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+%display {
+  display: flex;
+  justify-content: space-between;
+}
+
+// ...................text mixins...................
+%bodyL {
+  font-family: $font-family-primary;
+  font-weight: $font-weight-normal;
+  line-height: 40px;
+  font-style: normal;
+}
+%bodyS {
+  font-family: $font-family-primary;
+  line-height: 28px;
+  font-style: normal;
+}
+
+%HeadlineXS {
+  font-family: $font-family-base;
+  font-size: $font-size-medium;
+  font-weight: $font-weight-medium;
+  line-height: 24px;
+  font-style: normal;
+}
+%HeadlineS {
+  font-family: $font-family-base;
+  font-weight: $font-weight-bold;
+  line-height: 40px;
+  font-style: normal;
+}
+%HeadlineM {
+  font-family: $font-family-base;
+  font-weight: $font-weight-bold;
+  line-height: 48px;
+  font-style: normal;
+}
+%HeadlineL {
+  font-family: $font-family-base;
+  font-weight: $font-weight-bolder;
+  line-height: 64px;
+  font-style: normal;
+}
+%HeadlineXL {
+  font-family: $font-family-base;
+  font-style: normal;
+  font-weight: $font-weight-bolder;
+  line-height: 72px;
+  color: black;
+}
+// Buttons
+
+%ButtonL {
+  font-family: $font-family-base;
+  font-weight: 700;
+  line-height: 32px;
+  border-radius: 30px;
+  border: none;
+}
+%btn-on-hover {
+  background-color: #ff4f28;
+  border-radius: 30px;
+  box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.25) inset;
+}
+%dark-btn-on-hover {
+  background-color: #282828;
+  box-shadow: 0px -3px 0px 0px rgba(255, 255, 255, 0.25) inset;
+  border-radius: 30px;
+}
+%input-on-hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 2px solid #6a6a6a;
+  opacity: 1;
+}

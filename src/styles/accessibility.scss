@@ -1,0 +1,106 @@
+@import "./abstracts/variables.scss";
+@import "./abstracts/_mixins.scss";
+
+.accessibility-inner {
+  display: inline-block;
+  transition: width 0.3s ease;
+}
+
+.accessibility {
+  position: fixed;
+  padding: 10px;
+  border: none;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  top: 180px;
+  right: -10px;
+  font-size: $font-size-medium-2;
+  @include mobile-l-styles {
+    transform: rotate(270deg) translateY(100%);
+    border-radius: 15px;
+    top: 375px;
+  }
+}
+
+.modal {
+  background-color: hsla(0, 0%, 100%, 0.53);
+  position: fixed;
+  top: 223px;
+  right: 0px;
+  width: 500px;
+  padding: 20px 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+  @include mobile-l-styles {
+    width: 180px;
+    top: 153px;
+    padding: 30px 5px;
+  }
+  img {
+    @include mobile-l-styles {
+      width: 30px;
+      height: 40px;
+    }
+  }
+  .oversized {
+    padding-top: 15px;
+    @extend %display;
+    align-items: center;
+    color: $text-color-base;
+    @include mobile-l-styles {
+      padding-top: 5px;
+    }
+    .inner {
+      display: flex;
+      justify-content: left;
+    }
+    span {
+      background-color: white;
+      padding: 10px 30px;
+      font-size: 26px;
+      font-weight: $font-weight-bolder;
+      border-radius: 25px;
+      margin-right: 10px;
+
+      @include mobile-l-styles {
+        font-size: $font-size-medium;
+        padding: 5px;
+        margin-right: 5px;
+      }
+    }
+  }
+  .wrapper {
+    width: 100%;
+    @extend %display;
+    padding-top: 25px;
+    font-size: $font-size-medium-2;
+    font-weight: 500;
+    p {
+      @include mobile-l-styles {
+        font-size: $font-size-thiny;
+      }
+    }
+    .btn-inner {
+      background-color: white;
+      color: $text-color-base;
+      padding: 10px;
+      width: 45%;
+      text-align: center;
+      border-radius: 25px;
+    }
+  }
+}
+
+.modal button {
+  padding: 20px 60px;
+}
+
+.clicked {
+  background-color: $background-color-primary;
+  color: $text-color-secondary;
+  padding: 10px;
+  width: 45%;
+  text-align: center;
+  border-radius: 25px;
+}

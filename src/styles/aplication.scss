@@ -1,0 +1,144 @@
+@import "./abstracts/variables.scss";
+@import "./abstracts/_mixins.scss";
+
+.aplication-page {
+  background-color: $background-color-base;
+  padding: 20px;
+  font-family: $font-family-primary;
+  label {
+    font-weight: $font-weight-bold;
+  }
+  h1 {
+    @extend %HeadlineXL;
+    color: $text-color-base;
+    text-align: center;
+    padding: 60px 0;
+  }
+  .aplication {
+    .donation-inner {
+      color: $text-color-base;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      width: 70%;
+      margin: 0 auto;
+      padding: 60px 40px;
+      @include laptop-m-styles {
+        width: 90%;
+      }
+      form {
+        width: 90%;
+        margin: 0 auto;
+        @include laptop-m-styles {
+          width: 100%;
+        }
+        .form-inner {
+          @extend %display;
+          @include tablet-styles {
+            display: flex;
+            flex-direction: column;
+          }
+
+          .inner-left {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            margin-right: 10px;
+            @include tablet-styles {
+              width: 90%;
+            }
+          }
+          .inner-right {
+            width: 50%;
+            @include tablet-styles {
+              width: 90%;
+            }
+            .input-wrapper {
+              display: flex;
+              flex-direction: column;
+              label {
+                @extend %HeadlineS;
+                margin-top: 10px;
+                margin-bottom: 5px;
+              }
+              .btn {
+                @extend %display;
+                .btn-interest {
+                  background-color: inherit;
+                  width: 50%;
+                  color: $text-color-base;
+                  border-radius: 30px;
+                  padding: 15px 0;
+                  margin-right: 5px;
+                  margin-bottom: 10px;
+                }
+              }
+            }
+            .card-detail {
+              display: flex;
+
+              .over-18 {
+                margin-right: 5px;
+                width: 50%;
+                padding: 14px 0;
+                border-radius: 30px;
+                background-color: inherit;
+                margin-top: 3px;
+                color: $text-color-base;
+              }
+              .under-18 {
+                width: 50%;
+                padding: 7px 0;
+                border-radius: 30px;
+                background-color: inherit;
+                color: $text-color-base;
+              }
+            }
+            .range {
+              margin-top: 40px;
+              display: flex;
+              flex-direction: column;
+
+              #expirience {
+                margin-bottom: 0;
+              }
+              input[type="range"] {
+                accent-color: $background-color-thirdary;
+              }
+
+              .num {
+                @extend %display;
+              }
+            }
+          }
+
+          input {
+            background-color: inherit;
+            padding: 15px 10px;
+            border-radius: 30px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            &:focus {
+              color: $text-color-base;
+            }
+            &::placeholder {
+              color: #cac6c6;
+              @extend %ButtonL;
+              font-size: 22px;
+            }
+          }
+        }
+      }
+      .join {
+        display: flex;
+        justify-content: center;
+        .join-us {
+          @extend %ButtonL;
+          margin-top: 22px;
+          padding: 10px 30px;
+          &:hover {
+            @extend %btn-on-hover;
+          }
+        }
+      }
+    }
+  }
+}

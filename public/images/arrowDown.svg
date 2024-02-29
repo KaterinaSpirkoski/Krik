@@ -1,0 +1,26 @@
+<svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="16" height="10" fill="#797979"/>
+<g id="Volunteers Aplication ">
+<rect width="1920" height="2440" transform="translate(1147 -874)" fill="#FBF8F4"/>
+<g id="Donation" clip-path="url(#clip0_1314_793)">
+<rect width="1920" height="3081" transform="translate(-1424 -866)" fill="#FBF8F4"/>
+<g id="Rectangle 167" filter="url(#filter0_b_1314_793)">
+<rect x="-1093" y="-190" width="1262" height="736" rx="40" fill="#FBF8F4"/>
+</g>
+<rect id="Rectangle 192" x="-194" y="-23" width="232" height="54" rx="27" stroke="#191919" stroke-width="2"/>
+<path id="Vector" d="M8 -13.9999C-1.94112 -13.9999 -10 -5.92272 -10 4.04104C-10 14.0048 -1.94113 22.082 8 22.082C17.9411 22.082 26 14.0048 26 4.04104C26 -5.92272 17.9411 -13.9999 8 -13.9999Z" stroke="#191919" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M2 2.03907L8 8.05273L14 2.03907" stroke="#191919" stroke-width="2" stroke-linecap="square"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_b_1314_793" x="-1153" y="-250" width="1382" height="856" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="30"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1314_793"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1314_793" result="shape"/>
+</filter>
+<clipPath id="clip0_1314_793">
+<rect width="1920" height="3081" fill="white" transform="translate(-1424 -866)"/>
+</clipPath>
+</defs>
+</svg>

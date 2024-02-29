@@ -1,0 +1,173 @@
+@import "./abstracts/variables.scss";
+@import "./abstracts/_mixins.scss";
+
+.services-page {
+  background-color: $background-color-base;
+  .services-inner {
+    padding-top: 60px;
+    @extend %wrap;
+
+    @include mobile-l-styles {
+      width: 95%;
+    }
+
+    .links {
+      width: 80%;
+      margin: 60px auto;
+      @extend %display;
+      padding-bottom: 10px;
+      border-bottom: 1px solid black;
+      font-family: $font-family-base;
+      font-weight: $font-weight-bold;
+      position: relative;
+
+      @include mobile-l-styles {
+        width: 95%;
+      }
+
+      .link {
+        @extend %HeadlineS;
+      }
+      .active-link::after {
+        content: "";
+        position: absolute;
+        top: 88%;
+        left: 0%;
+        width: 30%;
+        height: 7px;
+        border-radius: 5px;
+        background-color: $background-color-primary;
+
+        @media screen and (max-width: 1024px) {
+          top: 92%;
+        }
+        @media screen and (max-width: 768px) {
+          top: 95%;
+        }
+      }
+    }
+    h2 {
+      @extend %HeadlineL;
+      color: $text-color-base;
+      padding-bottom: 30px;
+    }
+    p {
+      @extend %bodyL;
+      color: $text-color-base;
+    }
+    .gallery {
+      padding-bottom: 80px;
+      width: 100%;
+      h4 {
+        @extend %HeadlineM;
+        color: $text-color-base;
+        padding-top: 80px;
+        padding-bottom: 20px;
+      }
+      .gallery-first {
+        @extend %display;
+        .services-img-one {
+          width: 33%;
+        }
+        .services-img-two {
+          width: 66%;
+          border-radius: 15px;
+        }
+      }
+      .gallery-second {
+        margin-top: 12px;
+        @extend %display;
+        img {
+          width: 33%;
+        }
+        .grey-img {
+          filter: grayscale(100%);
+        }
+      }
+    }
+  }
+}
+.counseling-page {
+  @extend %wrap;
+  margin-top: 40px;
+  color: $text-color-base;
+  .links {
+    width: 80%;
+    margin: 60px auto;
+    @extend %display;
+    border-bottom: 1px solid $text-color-base;
+    font-family: $font-family-base;
+    font-weight: $font-weight-bold;
+    position: relative;
+
+    .link {
+      @extend %HeadlineS;
+    }
+    .active-link::after {
+      content: "";
+      position: absolute;
+      top: 88%;
+      left: 30%;
+      width: 40%;
+      height: 7px;
+      border-radius: 5px;
+      background-color: $background-color-primary;
+      @media screen and (max-width: 1024px) {
+        top: 93%;
+      }
+      @media screen and (max-width: 768px) {
+        top: 95%;
+      }
+    }
+  }
+  h1 {
+    font-family: $font-family-base;
+    margin-bottom: 40px;
+  }
+  p {
+    font-family: $font-family-primary;
+    line-height: 2;
+  }
+}
+.independent-page {
+  @extend %wrap;
+  margin-top: 40px;
+  color: $text-color-base;
+  .links {
+    width: 80%;
+    margin: 60px auto;
+    @extend %display;
+    border-bottom: 1px solid $text-color-base;
+    font-family: $font-family-base;
+    font-weight: $font-weight-bold;
+    position: relative;
+
+    .link {
+      @extend %HeadlineS;
+    }
+    .active-link::after {
+      content: "";
+      position: absolute;
+      top: 88%;
+      left: 80%;
+      width: 20%;
+      height: 7px;
+      border-radius: 5px;
+      background-color: $background-color-primary;
+      @media screen and (max-width: 1024px) {
+        top: 93%;
+      }
+      @media screen and (max-width: 768px) {
+        top: 95%;
+      }
+    }
+  }
+  h1 {
+    font-family: $font-family-base;
+    margin-bottom: 40px;
+  }
+  p {
+    font-family: $font-family-primary;
+    line-height: 2;
+  }
+}

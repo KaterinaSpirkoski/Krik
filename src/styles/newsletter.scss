@@ -1,0 +1,123 @@
+@import "./abstracts/variables.scss";
+@import "./abstracts/_mixins.scss";
+
+.newsLetter {
+  background-color: $background-color-default;
+  padding-top: 10px;
+
+  .title {
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px 0;
+
+    h1 {
+      font-family: $font-family-primary;
+      font-size: 120px;
+      font-style: normal;
+      font-weight: $font-weight-bolder;
+      line-height: 140px;
+      text-transform: uppercase;
+      @include tablet-styles {
+        font-size: 36px;
+      }
+    }
+    h2 {
+      text-align: right;
+      font-family: sans-serif;
+      font-size: 150px;
+      font-style: normal;
+      font-weight: $font-weight-bolder;
+      line-height: normal;
+      text-transform: uppercase;
+      color: transparent;
+      -webkit-text-fill-color: transparent;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: white;
+      @include tablet-styles {
+        font-size: 36px;
+      }
+    }
+  }
+  main {
+    background-color: #fbf8f4;
+    color: black;
+
+    .newsletter-inner {
+      @extend %wrap;
+
+      .card-inner {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        &.odd {
+          flex-direction: row-reverse;
+        }
+        .text {
+          width: 40%;
+          display: flex;
+
+          @include mobile-l-styles {
+            width: 100%;
+          }
+
+          .text-inner {
+            text-align: right;
+            padding: 60px 0;
+
+            &.odd {
+              width: 100%;
+              text-align: start;
+              margin-left: 35px;
+            }
+            .dot {
+              background-color: $background-color-primary;
+              width: 40px;
+              height: 40px;
+              border-radius: 50%;
+              position: absolute;
+              right: 48.5%;
+              top: 60px;
+              @include mobile-l-styles {
+                top: 40px;
+              }
+            }
+            h3 {
+              @extend %HeadlineL;
+            }
+            h6 {
+              @extend %HeadlineS;
+              margin-top: 30px;
+            }
+          }
+        }
+
+        .img {
+          width: 40%;
+
+          @include mobile-l-styles {
+            width: 100%;
+          }
+          &.odd {
+            img {
+              margin-left: 120px;
+
+              @include tablet-styles {
+                margin-left: 0px;
+              }
+            }
+          }
+          img {
+            max-width: 70%;
+            padding: 60px 0;
+            @include mobile-l-styles {
+              margin-top: 50px;
+              max-width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

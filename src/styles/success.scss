@@ -1,0 +1,35 @@
+@import "./abstracts/variables.scss";
+@import "./abstracts/_mixins.scss";
+
+.success {
+  margin: 50px 0 60px 0;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  font-family: $font-family-base;
+  border-bottom: 2px solid $text-color-base;
+  border-top: 2px solid $text-color-base;
+  @include tablet-styles {
+    flex-direction: column;
+  }
+  div {
+    padding: 5px 85px;
+    margin-right: 50px;
+  }
+  .volunters-num {
+    border: 1px solid $text-color-primary;
+    @include tablet-styles {
+      border: none;
+    }
+  }
+  span {
+    font-weight: $font-weight-bolder;
+    @include tablet-styles {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  p {
+    text-align: center;
+  }
+}

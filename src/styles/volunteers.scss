@@ -1,0 +1,266 @@
+@import "./abstracts/variables.scss";
+@import "./abstracts/_mixins.scss";
+
+.volunteers {
+  padding-top: 80px;
+  background-color: $background-color-base;
+  .volunteers-link {
+    width: 75%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $text-color-base;
+    font-family: $font-family-base;
+    font-weight: $font-weight-bold;
+    position: relative;
+
+    .link {
+      @extend %HeadlineM;
+    }
+    .active-link::after {
+      content: "";
+      position: absolute;
+      top: 89%;
+      left: 0%;
+      width: 48%;
+      height: 7px;
+      border-radius: 5px;
+      background-color: $background-color-primary;
+
+      @media screen and (max-width: 1024px) {
+        top: 92%;
+      }
+      @media screen and (max-width: 768px) {
+        top: 95%;
+      }
+    }
+  }
+
+  .title {
+    color: $text-color-base;
+    @extend %wrap;
+    text-align: center;
+    padding-bottom: 30px;
+    h1 {
+      @extend %HeadlineXL;
+    }
+  }
+
+  .volunteers-inner {
+    @extend %display;
+    flex-wrap: wrap;
+    @extend %wrap;
+    @include mobile-l-styles {
+      width: 90%;
+    }
+    .card {
+      flex-basis: 23%;
+      margin-bottom: 20px;
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+      border-radius: 30px;
+      @include mobile-l-styles {
+        flex-basis: 32%;
+      }
+
+      .volunteer-image {
+        display: block;
+        width: 100%;
+        object-fit: cover;
+        height: 240px;
+        object-position: top center;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+        @include tablet-styles {
+          height: 150px;
+        }
+      }
+      .card-text {
+        background-color: white;
+        color: $text-color-base;
+        padding: 20px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        font-family: $font-family-primary;
+        @include mobile-l-styles {
+          padding: 15px;
+        }
+        p {
+          @extend %bodyS;
+          margin-top: 10px;
+        }
+        h4 {
+          @extend %HeadlineS;
+          @include mobile-l-styles {
+            font-weight: 0.5;
+          }
+        }
+      }
+    }
+  }
+}
+.volunteer-detail {
+  background-color: $background-color-base;
+  padding: 60px 0;
+  .inner {
+    @extend %wrap;
+    display: flex;
+    align-items: center;
+    color: $text-color-base;
+    border: 2px solid $text-color-base;
+    border-radius: 15px;
+    @include tablet-styles {
+      flex-direction: column;
+      width: 95%;
+    }
+
+    img {
+      width: 450px;
+      border-radius: 15px;
+      object-fit: cover;
+      align-self: stretch;
+      @include tablet-styles {
+        width: 100%;
+      }
+    }
+
+    .detail-text {
+      width: 60%;
+      padding: 20px 60px 20px 60px;
+      line-height: 2;
+
+      @include tablet-styles {
+        width: 95%;
+      }
+
+      h2 {
+        @extend %HeadlineL;
+      }
+      p {
+        @extend %bodyL;
+      }
+    }
+  }
+  .voluneer-projects {
+    padding-top: 100px;
+    color: $text-color-base;
+    @extend %wrap;
+    @include tablet-styles {
+      width: 90%;
+    }
+
+    h2 {
+      @extend %HeadlineL;
+      padding-bottom: 30px;
+    }
+    .type {
+      width: 81%;
+      @extend %display;
+      margin-bottom: 30px;
+    }
+
+    .btn-type {
+      background-color: inherit;
+      padding: 5px 35px;
+      border: 2px solid text-color-base;
+      border-radius: 15px;
+      font-family: $font-family-primary;
+      color: $text-color-base;
+    }
+    .projects {
+      .latest-card {
+        display: flex;
+        .latest-inner {
+          position: relative;
+          img {
+            width: 400px;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 25px;
+            margin-right: 20px;
+            position: relative;
+            filter: brightness(90%);
+
+            @include mobile-l-styles {
+              width: 380px;
+            }
+          }
+
+          .text-card {
+            position: absolute;
+            bottom: 0;
+            color: $text-color-secondary;
+            padding: 20px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+            .date-name {
+              display: flex;
+              span {
+                border-radius: 20px;
+                margin-right: 15px;
+                font-size: 14px;
+                padding: 0 10px;
+                color: $text-color-base;
+                font-weight: 500;
+                font-family: $font-family-base;
+              }
+            }
+            button {
+              background-color: inherit;
+              border: none;
+              font-size: 14px;
+              font-family: $font-family-primary;
+            }
+            .inner-text {
+              padding: 5px 0;
+              font-family: $font-family-primary;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.shortTerm-volunteers-link {
+  width: 75%;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 10px;
+  border-bottom: 1px solid $text-color-base;
+  font-family: $font-family-base;
+  font-weight: $font-weight-bold;
+  position: relative;
+
+  .link {
+    @extend %HeadlineM;
+    padding: 0 25px 0px 30px;
+  }
+  .active-link::after {
+    content: "";
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    width: 50%;
+    height: 7px;
+    border-radius: 5px;
+    background-color: $background-color-primary;
+
+    @media screen and (max-width: 1024px) {
+      top: 92%;
+    }
+    @media screen and (max-width: 768px) {
+      top: 95%;
+    }
+  }
+}
+.short-term-desc {
+  color: $text-color-base;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: $font-family-primary;
+  text-align: center;
+  padding-bottom: 60px;
+}

@@ -1,0 +1,94 @@
+@import "./abstracts/variables.scss";
+@import "./abstracts/_mixins.scss";
+
+.about {
+  padding-top: 120px;
+  background-color: $background-color-base;
+  .about-inner {
+    @extend %wrap;
+    @extend %display;
+    padding-bottom: 50px;
+    @include tablet-styles {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .about-img img {
+      display: block;
+      max-width: 100%;
+      min-height: 100%;
+      object-fit: fill;
+      filter: grayscale(100%);
+    }
+    .about-des {
+      width: 60%;
+      color: $text-color-base;
+      margin-left: 20px;
+      line-height: 1.5;
+      @include tablet-styles {
+        width: 90%;
+      }
+
+      h3 {
+        @extend %HeadlineS;
+        margin-bottom: $font-size-medium-2;
+        @include laptop-m-styles {
+          font-size: $font-size-medium-2;
+          line-height: 1.5;
+        }
+      }
+      p {
+        @extend %bodyL;
+        @include laptop-m-styles {
+          font-size: 14px;
+          line-height: 2;
+        }
+      }
+    }
+  }
+}
+.about-krik {
+  background-color: $background-color-base;
+  border: none;
+  padding-bottom: 10px;
+  .second-title {
+    color: $text-color-base;
+    @extend %wrap;
+    @extend %HeadlineL;
+    padding: 30px 0;
+  }
+  .inner {
+    @extend %wrap;
+    @extend %display;
+    margin-bottom: 15px;
+    align-items: center;
+    @include tablet-styles {
+      display: flex;
+      flex-direction: column;
+    }
+    h3 {
+      @extend %HeadlineM;
+    }
+    .text {
+      width: 60%;
+      margin-left: 20px;
+      @include tablet-styles {
+        width: 90%;
+      }
+      p {
+        @extend %bodyL;
+        color: $text-color-base;
+        width: 100%;
+        @include laptop-m-styles {
+          font-size: 14px;
+          line-height: 2;
+        }
+      }
+    }
+  }
+  hr {
+    height: 1px;
+    background-color: $background-color-quaternary;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,336 @@
+@import "./abstracts/variables.scss";
+@import "./abstracts/_mixins.scss";
+
+.donation-page {
+  background-color: $background-color-base#fbf8f4;
+  padding: 100px 0;
+  color: $text-color-base;
+  h1 {
+    @extend %HeadlineL;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 40px;
+  }
+  .donate-links {
+    width: 75%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $text-color-base;
+    font-family: $font-family-base;
+    font-weight: $font-weight-bold;
+    position: relative;
+
+    @include tablet-styles {
+      width: 95%;
+    }
+
+    .link {
+      @extend %HeadlineS;
+    }
+    .active-link::after {
+      content: "";
+      position: absolute;
+      top: 88%;
+      left: 0%;
+      width: 48%;
+      height: 7px;
+      border-radius: 5px;
+      background-color: $background-color-primary;
+
+      @media screen and (max-width: 1024px) {
+        top: 92%;
+      }
+      @media screen and (max-width: 768px) {
+        top: 95%;
+      }
+
+      @include tablet-styles {
+        width: 35%;
+      }
+    }
+  }
+  .btn-inner {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    padding: 15px;
+    @include tablet-styles {
+      width: 95%;
+    }
+    button {
+      width: 50%;
+      background-color: inherit;
+      color: $text-color-base;
+      border: none;
+      border-bottom: 1px solid $text-color-base;
+    }
+  }
+  .donation-card {
+    width: 60%;
+    margin: 0 auto;
+    color: $text-color-base;
+    @include laptop-m-styles {
+      width: 80%;
+    }
+    @include tablet-styles {
+      width: 95%;
+    }
+    .card {
+      background-color: $background-color-base;
+      padding: 50px 70px 50px 70px;
+      border-radius: 15px;
+      margin-bottom: 50px;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+      @include tablet-styles {
+        padding: 20px;
+      }
+
+      h5 {
+        @extend %HeadlineS;
+      }
+      .btn-inner-card {
+        @extend %display;
+        width: 100%;
+        position: relative;
+        @include mobile-l-styles {
+          flex-direction: column;
+        }
+        button,
+        select {
+          background-color: inherit;
+          color: $text-color-base;
+          border-radius: 30px;
+          margin: 20px 0;
+          &:hover {
+            @extend %input-on-hover;
+          }
+        }
+        button {
+          padding: 10px 55px;
+        }
+        select {
+          padding: 10px 35px;
+          border: 2px solid $text-color-base;
+          appearance: none;
+        }
+        .arrow-down {
+          position: absolute;
+          border: 1px solid $text-color-base;
+          border-radius: 50%;
+          padding: 3px;
+          top: 25px;
+          right: 5px;
+        }
+      }
+      .text-card {
+        width: 80%;
+        line-height: 2;
+        margin-bottom: 20px;
+        font-family: $font-family-primary;
+      }
+      label {
+        font-family: $font-family-primary;
+      }
+      form {
+        .input {
+          display: flex;
+          flex-direction: column;
+          input {
+            background-color: inherit;
+            padding: 10px;
+            width: 200px;
+            border-radius: 30px;
+            margin: 10px 0 40px 0;
+            &:hover {
+              @extend %input-on-hover;
+            }
+          }
+        }
+        .form-inner {
+          button {
+            margin-right: 15px;
+            padding: 12px 25px;
+            width: 130px;
+            border-radius: 30px;
+            border: none;
+            font-weight: $font-weight-medium;
+            font-size: 14px;
+          }
+          .donate-btn {
+            background-color: $background-color-quaternary;
+            &:hover {
+              @extend %dark-btn-on-hover;
+            }
+          }
+          .payPal {
+            background-color: $background-color-thirdary;
+            color: $text-color-base;
+            &:hover {
+              background-color: $bg-contrast-yellow;
+              box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.25) inset;
+            }
+          }
+        }
+      }
+    }
+  }
+  .donation-inner {
+    @extend %wrap;
+    color: $text-color-base;
+    @include mobile-l-styles {
+      width: 100%;
+    }
+    form {
+      width: 75%;
+      margin: 0 auto;
+      .form-inner {
+        @extend %wrap;
+        @extend %display;
+        font-family: $font-family-base;
+        @include tablet-styles {
+          width: 90%;
+          display: flex;
+          flex-direction: column;
+        }
+        label {
+          @extend %HeadlineS;
+        }
+        .inner-left {
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          margin-right: 10px;
+          @include tablet-styles {
+            width: 100%;
+          }
+        }
+        .inner-right {
+          width: 50%;
+          @include tablet-styles {
+            width: 100%;
+          }
+          .input-wrapper {
+            display: flex;
+            flex-direction: column;
+          }
+          .card-detail {
+            display: flex;
+            margin-top: 37px;
+            .expiry {
+              margin-right: 5px;
+              width: 50%;
+            }
+            .cvv {
+              width: 50%;
+            }
+          }
+          .card {
+            background-image: url("/images/Discover.png");
+            background-repeat: no-repeat;
+            background-size: 30px;
+            background-position: calc(100% - 8px) center;
+          }
+          .card-container {
+            position: relative;
+          }
+          .card-container::before,
+          .card-container::after {
+            content: "";
+            position: absolute;
+            top: 60%;
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+
+          .card-container::before {
+            transform: translateY(-35%);
+            right: 40px;
+            background-image: url("/images/Visa.png");
+            height: 30px;
+            width: 30px;
+          }
+
+          .card-container::after {
+            transform: translateY(-25%);
+            right: 75px;
+            background-image: url("/images/Mastercard.png");
+            height: 25px;
+            width: 25px;
+          }
+        }
+
+        input {
+          background-color: inherit;
+          padding: 12px 10px;
+          border-radius: 30px;
+          margin-top: 5px;
+          margin-bottom: 15px;
+          &:focus {
+            color: $text-color-base;
+          }
+          &::placeholder {
+            font-size: $font-size-medium;
+            font-weight: $font-weight-bold;
+            color: rgb(193, 190, 190);
+            padding-left: 5px;
+          }
+          &:hover {
+            @extend %input-on-hover;
+          }
+        }
+        button {
+          @extend %ButtonL;
+          width: 100%;
+          margin-top: 42px;
+          padding: 10px 0;
+          background-color: $text-color-primary;
+          &:hover {
+            @extend %btn-on-hover;
+          }
+        }
+      }
+    }
+  }
+}
+
+.company {
+  .donate-links {
+    width: 75%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    font-family: $font-family-base;
+    font-weight: $font-weight-bold;
+    position: relative;
+
+    .link {
+      padding: 0 25px 0px 30px;
+      font-family: $font-family-base;
+      font-size: 18px;
+    }
+    .active-link::after {
+      content: "";
+      position: absolute;
+      top: 88%;
+      left: 50%;
+      width: 50%;
+      height: 7px;
+      border-radius: 5px;
+      background-color: $background-color-primary;
+
+      @media screen and (max-width: 1024px) {
+        top: 92%;
+      }
+      @media screen and (max-width: 768px) {
+        top: 95%;
+      }
+    }
+  }
+}

@@ -1,0 +1,297 @@
+@import "./abstracts/variables.scss";
+@import "./abstracts/_mixins.scss";
+
+.e-shop-page {
+  padding-top: 60px;
+  color: $text-color-base;
+  .title-eShop {
+    @extend %HeadlineXL;
+    text-align: center;
+    padding: 60px 0;
+  }
+  .gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .row {
+      display: flex;
+      margin-top: 10px;
+      .animated-img {
+        width: 362px;
+        height: 324px;
+        margin: 0 5px;
+        border-radius: 30px;
+        background-position: top center;
+        background-size: cover;
+        border: none;
+        @include tablet-styles {
+          height: 200px;
+        }
+      }
+      .large-image {
+        width: 740px;
+        border: none;
+      }
+    }
+  }
+
+  .gallery-container.animate .row:nth-child(1) {
+    animation: moveleft 350s linear infinite;
+    @keyframes moveleft {
+      0% {
+        transform: translate(0, 0);
+      }
+      100% {
+        transform: translate(-50%, 0);
+      }
+    }
+  }
+
+  .gallery-container.animate .row:nth-child(2) {
+    animation: moveleft 350s linear infinite;
+    @keyframes moveleft {
+      0% {
+        transform: translate(0, 0);
+      }
+      100% {
+        transform: translate(-50%, 0);
+      }
+    }
+  }
+
+  .gallery-container.animate.paused .row:nth-child(1) {
+    animation: moveleft 350s linear infinite;
+  }
+
+  .gallery-container.animate.paused .row:nth-child(2) {
+    animation: moveright 350s linear infinite;
+  }
+
+  .products-container {
+    @extend %wrap;
+    @include laptop-m-styles {
+      width: 90%;
+    }
+    h1 {
+      @extend %HeadlineXL;
+      padding: 30px 0 60px 0;
+    }
+    .products-inner {
+      @extend %display;
+      flex-wrap: wrap;
+      .product-card {
+        width: 32%;
+        backdrop-filter: blur(30px);
+        border-radius: 30px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+          rgba(0, 0, 0, 0.05) 0px 5px 10px;
+        margin-bottom: 60px;
+
+        @include tablet-styles {
+          width: 48%;
+        }
+        @include mobile-l-styles {
+          width: 100%;
+        }
+        img {
+          width: 100%;
+          height: 340px;
+          object-fit: cover;
+          border-radius: 30px;
+        }
+        .text-inner {
+          padding: 20px 20px 40px 20px;
+          position: relative;
+          h3 {
+            @extend %HeadlineM;
+          }
+          p {
+            font-family: $font-family-primary;
+            font-size: 12px;
+            padding: 10px 0;
+          }
+          span {
+            @extend %HeadlineM;
+            padding-bottom: 20px;
+          }
+        }
+        .buy {
+          position: absolute;
+          bottom: -25px;
+          left: 20%;
+          display: flex;
+          justify-content: center;
+
+          .icon-heart {
+            border: 2px solid $text-color-base;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+              width: 40px;
+              height: 40px;
+            }
+          }
+          .clicked {
+            background-color: $background-color-thirdary;
+          }
+          .buy-btn {
+            @extend %ButtonL;
+            padding: 5px 55px;
+            color: $text-color-secondary;
+            margin-right: 10px;
+            &:hover {
+              @extend %btn-on-hover;
+            }
+          }
+        }
+      }
+    }
+    .more-products {
+      display: flex;
+      justify-content: center;
+      .more-products-btn {
+        @extend %ButtonL;
+        padding: 5px 55px;
+        color: $text-color-secondary;
+        background-color: $background-color-quaternary;
+        text-align: center;
+        margin-top: 40px;
+        &:hover {
+          @extend %dark-btn-on-hover;
+        }
+      }
+    }
+  }
+}
+.product-detail-card {
+  width: 70%;
+  margin: 150px auto;
+  color: $text-color-base;
+  @include laptop-m-styles {
+    width: 90%;
+    margin: 150 auto;
+  }
+  @include mobile-l-styles {
+    width: 100%;
+  }
+  .image {
+    width: 100%;
+    margin: 0 auto;
+    @extend %display;
+    @include laptop-m-styles {
+      display: flex;
+      justify-content: center;
+    }
+    .left-inner {
+      width: 68%;
+      @include laptop-m-styles {
+        width: 50%;
+      }
+      img {
+        max-width: 100%;
+        height: 98%;
+        border-radius: 30px;
+        object-fit: fill;
+        @include laptop-m-styles {
+          width: 98%;
+          height: 95%;
+        }
+      }
+    }
+    .right-inner {
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      @include laptop-m-styles {
+        width: 20%;
+      }
+      img {
+        width: 362px;
+        height: 304px;
+        border-radius: 30px;
+        margin-bottom: 20px;
+        @include laptop-m-styles {
+          width: 100%;
+          height: 30%;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+  .text-detail {
+    @extend %display;
+    @include laptop-m-styles {
+      width: 70%;
+      margin: 0 auto;
+    }
+    @include mobile-l-styles {
+      flex-direction: column;
+    }
+    .inner-text {
+      width: 65%;
+      @include mobile-l-styles {
+        width: 95%;
+      }
+      h2 {
+        @extend %HeadlineL;
+        padding: 10px 0;
+        @include laptop-m-styles {
+          font-size: $font-size-xxl;
+        }
+      }
+      p {
+        @extend %bodyL;
+        @include laptop-m-styles {
+          font-size: $font-size-medium;
+        }
+      }
+    }
+    .inner-price {
+      p {
+        @extend %HeadlineL;
+        text-align: end;
+        padding: 10px 0;
+        @include laptop-m-styles {
+          font-size: $font-size-xxl;
+        }
+      }
+      .buy {
+        display: flex;
+        margin-top: 55px;
+        .icon-heart {
+          border: 2px solid $text-color-base;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          background-color: white;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          img {
+            width: 40px;
+            height: 40px;
+          }
+        }
+        .clicked {
+          background-color: $background-color-thirdary;
+        }
+        .buy-btn {
+          @extend %ButtonL;
+          padding: 0px 75px;
+          color: $text-color-secondary;
+          margin-left: 10px;
+          &:hover {
+            @extend %btn-on-hover;
+          }
+        }
+      }
+    }
+  }
+}

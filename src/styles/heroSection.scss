@@ -1,0 +1,66 @@
+@import "./abstracts/variables.scss";
+@import "./abstracts/_mixins.scss";
+
+.hero-section {
+  background: url(/images/herosection.jpg);
+  height: 120vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  @include mobile-l-styles {
+    background-position: left center;
+  }
+
+  .hero-text {
+    width: 747px;
+    margin: 0 auto;
+    text-align: center;
+    @include tablet-styles {
+      width: 400px;
+    }
+    .hero-title {
+      @extend %HeadlineXL;
+      width: 100%;
+      text-transform: uppercase;
+      margin-top: 100px;
+      margin-bottom: 80px;
+      text-align: center;
+      @include mobile-l-styles {
+        margin: 40px 0;
+      }
+    }
+    h2 {
+      @extend %HeadlineM;
+      text-align: center;
+      color: $text-color-base;
+    }
+    .desc {
+      color: $text-color-base;
+      text-align: center;
+      font-family: $font-family-primary;
+      width: 450px;
+      margin: 0 auto;
+      @include mobile-l-styles {
+        width: 350px;
+      }
+    }
+    .btn-more {
+      @extend %ButtonL;
+      margin-top: 20px;
+      margin-left: 20px;
+      width: 452px;
+      height: 62px;
+      text-align: center;
+      &:hover {
+        background-color: #ada1d9;
+      }
+      @include mobile-l-styles {
+        width: 171px;
+        height: 32px;
+      }
+    }
+  }
+}

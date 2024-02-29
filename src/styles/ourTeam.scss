@@ -1,0 +1,276 @@
+@import "./abstracts/variables.scss";
+@import "./abstracts/_mixins.scss";
+
+.our-team-page {
+  background-color: $background-color-base;
+  padding-top: 100px;
+  @include mobile-l-styles {
+    padding-top: 30px;
+  }
+  h1 {
+    @extend %HeadlineXL;
+    color: $text-color-base;
+    text-align: center;
+    padding-bottom: 70px;
+    @include mobile-l-styles {
+      padding-bottom: 30px;
+    }
+  }
+  .team-inner {
+    @extend %wrap;
+    color: $text-color-base;
+    padding-bottom: 140px;
+    @include mobile-l-styles {
+      padding-bottom: 30px;
+    }
+
+    .team-slider {
+      @extend %display;
+      position: relative;
+      height: 600px;
+      @include mobile-l-styles {
+        width: 100%;
+      }
+
+      .center {
+        transform: none;
+        order: 2;
+        position: absolute;
+        display: block;
+        height: 632px;
+        left: 350px;
+
+        @include laptop-m-styles {
+          left: 250px;
+        }
+        @include tablet-styles {
+          left: 10px;
+          width: 100%;
+        }
+
+        .image-container {
+          img {
+            width: 62.5%;
+            min-height: 495px;
+            border-radius: 30px;
+            object-fit: cover;
+            @include tablet-styles {
+              width: 100%;
+              min-height: 300px;
+            }
+          }
+        }
+        .description {
+          width: 60%;
+          height: 186px;
+          text-align: center;
+          font-family: $font-family-base;
+          @include tablet-styles {
+            margin-left: 50px;
+          }
+          h5 {
+            @extend %HeadlineM;
+            padding-bottom: 10px;
+          }
+          p {
+            font-weight: 700;
+            padding-bottom: 10px;
+          }
+        }
+        .slider-buttons {
+          width: 60%;
+          padding: 20px 0;
+          text-align: center;
+          @include tablet-styles {
+            margin-left: 50px;
+          }
+          .btn {
+            width: 30%;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            justify-content: space-evenly;
+          }
+
+          button {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: $background-color-default;
+            border: none;
+            &:hover {
+              background-color: $background-color-thirdary;
+            }
+
+            img {
+              width: 10px;
+            }
+          }
+        }
+      }
+      .left {
+        transform: translateX(-850px) scale(0.8);
+        order: 1;
+        @include laptop-m-styles {
+          transform: translateX(-550px) scale(0.8);
+        }
+        @include tablet-styles {
+          display: none;
+        }
+      }
+      .right {
+        transform: translate(875px) scale(0.8);
+        order: 0;
+        @include laptop-m-styles {
+          transform: translateX(580px) scale(0.8);
+        }
+        @include tablet-styles {
+          display: none;
+        }
+      }
+      .right,
+      .left {
+        width: 362px;
+        height: 360px;
+        margin-top: 50px;
+        img {
+          width: 100%;
+          height: 360px;
+          object-fit: cover;
+          border-radius: 30px;
+        }
+        .slider-buttons,
+        .linkedIn {
+          display: none;
+        }
+        .description {
+          font-family: $font-family-base;
+
+          h5 {
+            font-size: $font-size-large;
+            padding: 10px 0;
+          }
+          p {
+            font-weight: 500;
+          }
+        }
+      }
+      .linkedIn {
+        padding: 10px 20px;
+        font-size: 18px;
+        font-family: $font-family-base;
+        font-weight: $font-weight-bold;
+        border-radius: 30px;
+        border: none;
+
+        img {
+          width: 10px;
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+
+  .menagment-inner {
+    h1 {
+      @extend %HeadlineXL;
+      padding-top: 50px;
+    }
+    .menagment-card {
+      width: 100%;
+      margin: 0 auto;
+      border-bottom: 2px solid #191919;
+    }
+    .team-card-inner {
+      width: 100%;
+      padding-top: 40px;
+      margin-bottom: 20px;
+      border-top: 2px solid #191919;
+      .wrapper {
+        width: 65%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $text-color-base;
+
+        @include tablet-styles {
+          width: 90%;
+        }
+        @include mobile-l-styles {
+          flex-direction: column;
+        }
+      }
+      .text-card-inner {
+        width: 75%;
+        margin-left: 20px;
+        @include mobile-l-styles {
+          width: 100%;
+        }
+        p {
+          font-family: $font-family-primary;
+          line-height: 2;
+          @include tablet-styles {
+            line-height: 1.5;
+            font-size: 14px;
+          }
+          @include mobile-l-styles {
+            line-height: 1.5;
+            font-size: 12px;
+          }
+        }
+        h3 {
+          @extend %HeadlineM;
+          margin-bottom: 10px;
+        }
+        h5 {
+          @extend %HeadlineS;
+          margin-bottom: 40px;
+
+          @include tablet-styles {
+            margin-bottom: 5px;
+          }
+        }
+      }
+      img {
+        width: 40%;
+        margin-right: 30px;
+        align-self: stretch;
+        @include mobile-l-styles {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.team-detail {
+  background-color: $background-color-base;
+  color: $text-color-base;
+  padding: 80px 0 100px 0;
+  .team-detail-inner {
+    display: flex;
+    align-items: center;
+    @extend %wrap;
+    .detail-image {
+      img {
+        width: 450px;
+        height: 450px;
+        object-fit: cover;
+        border-radius: 15px;
+        margin-right: 20px;
+      }
+    }
+    .detail-info {
+      h2 {
+        @extend %HeadlineL;
+        margin-bottom: 20px;
+      }
+      p {
+        @extend %bodyL;
+        line-height: 2;
+        font-family: $font-family-primary;
+      }
+    }
+  }
+}

@@ -1,0 +1,2086 @@
+{
+  "about": {
+    "img": "/images/about.png",
+    "title": "Центарот за младинскиот активизам Крик е невладина, непрофитна организација основана од страна на млади луѓе, предводена од млади луѓе и работи за и со младите луѓе.",
+    "description": "Целната група со која КРИК работи се сите луѓе (но главно млади) кои сакаат да придонесат и направат промени во полето на екологија, критичко размислување и комуникациски вештини, како и рабење за благостојба на социјално исклучените групи од општеството и маргинализираните групи. Крик се стреми кон поттикнување на поголема партиципација на младите, младински активизам, да ги охрабри младите луѓе да бидат повеќе вклучени во процесот на креирање политики на локално и на национално ниво.",
+    "second_title": "За Крик",
+    "first_pretitle": "Mисија",
+    "first_content": "Да понуди активности за зајакнување на капацитетите на младите и лицата со попреченост преку развој на младинската работа и обезбедување услуги за социјална заштита.",
+    "second_pretitle": "Визија",
+    "second_content": "Да создаде инклузивно општество каде младите и лицата со попреченост се подеднакво вклучени и имаат целосно развиени капацитети активно да придонесуваат за заедницата.",
+    "thirt_pretitle": "Нашите Вредности",
+    "third_content": " Развивање на младиснка работа, поттикнување на младински активизам и волонтеризам. Поголема вклученост на младите исклучени од општеството преку учество на работилници, настани и обуки. Развој на услуги за социјална заштита, сместување и грижа за лица со интелектуална и/или телесна попреченост и други услови. Поттикнување на социјалната влученост на маргинилизирани групи, млади и возрасни во сите сфери на општественото делување."
+  },
+  "services": {
+    "title": "Центар Крикни",
+    "description": "   Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque perferendis soluta quas voluptatibus nihil consequatur cum repellat dignissimos suscipit harum, eius quos? Dolorum quis aliquid delectus a perspiciatis voluptates, labore dolores eaque fuga, voluptatem velit tempora necessitatibus accusamus, minima mollitia maxime nobis iusto totam repellendus? At natus aut, sequi suscipit itaque animi illo molestias quaerat non magnam sint. Nisi, architecto tempore libero laudantium non reiciendis, voluptatum facilis recusandae totam aut illo inventore iste placeat id amet a culpa? Ullam, accusamus fugiat? ",
+    "image_first": "/images/services_first.png",
+    "image_second": "/images/services_second.png",
+    "image_third": "/images/services_third.png",
+    "image_fourth": "/images/services_fourth.png",
+    "image_fifth": "/images/services_fifth.png"
+  },
+  "ourServices": [
+    {
+      "id": "0",
+      "title": "01 Мултифункционален Центар Крикни",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ut optio fugiat voluptatem sunt repellat dolorem repellendus, aperiam fugit!",
+      "redirecting": "/servicesPage"
+    },
+    {
+      "id": "1",
+      "title": "2 Независни станбени единици",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ut optio fugiat voluptatem sunt repellat dolorem repellendus, aperiam fugit!",
+      "redirecting": "/servicesPage/independent"
+    },
+    {
+      "id": "2",
+      "title": "3 Советувалиште за Млади и Родители",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ut optio fugiat voluptatem sunt repellat dolorem repellendus, aperiam fugit!",
+      "redirecting": "servicesPage/counseling"
+    }
+  ],
+  "upcomingEvents": [
+    {
+      "id": "0",
+      "name": "Нижиме заедно",
+      "desc": "Проектот „Еднакви можности за девојчињата и младите жени во Северна Македонија„ го спроведуваат Националниот младиснки цовет на Македонија и Srella Network со финансиска поддршка од страна на Британската амбасада во Скопје.",
+      "place": "Градски Парк, Скопје, 14:00",
+      "date": "23",
+      "month": "Септ",
+      "img": "./images/homepage_nastan.jpg"
+    }
+  ],
+  "volunteers": [
+    {
+      "id": "0",
+      "name": "Idil Abesien",
+      "info": "20 Години, Турција",
+      "image": "/images/volunteers/1.png",
+      "description": "Hello! I’m Idil. I am 20. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures.",
+      "projects": [
+        {
+          "id": "0",
+          "name": "АКТИВНОСТ ECO-ACTION",
+          "date": "25.08.2023",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_2.jpg",
+          "moreInfo": "CTA",
+          "rating": "2"
+        },
+        {
+          "id": "1",
+          "date": "22.08.2023",
+          "name": "BUILD YOUR STRENGTH",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_3.jpg",
+          "moreInfo": "CTA",
+          "rating": "3"
+        },
+        {
+          "id": "2",
+          "date": "15.08.2023",
+          "name": "ЛЕТЕН КАМП",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_4.jpg",
+          "moreInfo": "CTA",
+          "rating": "4"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Melih Furkan",
+      "info": "22 Години, Турција",
+      "image": "/images/volunteers/2.png",
+      "description": "Hello! I’m Melih. I am 22. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures.",
+      "projects": [
+        {
+          "id": "3",
+          "date": "25.07.2023",
+          "name": "АКТИВНОСТ ECO-ACTION",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_2.jpg",
+          "moreInfo": "CTA",
+          "rating": "3"
+        },
+        {
+          "id": "4",
+          "date": "21.06.2023",
+          "name": "АКТИВНОСТ ECO-ACTION",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_2.jpg",
+          "moreInfo": "CTA",
+          "rating": "2"
+        },
+        {
+          "id": "5",
+          "date": "18.06.2023",
+          "name": "АКТИВНОСТ ECO-ACTION",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_4.jpg",
+          "moreInfo": "CTA",
+          "rating": "1"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Bedirhan Sevim",
+      "info": "22 Години, Турција",
+      "image": "/images/volunteers/3.png",
+      "description": "Hello! I’m Bedirhan. I am 22. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures.",
+      "projects": [
+        {
+          "id": "6",
+          "date": "17.07.2023",
+          "name": "АКТИВНОСТ ECO-ACTION",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_4.jpg",
+          "moreInfo": "CTA",
+          "rating": "2"
+        },
+        {
+          "id": "7",
+          "date": "16.07.2023",
+          "name": "ESC Volunteers",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_4.jpg",
+          "moreInfo": "CTA",
+          "rating": "3"
+        },
+        {
+          "id": "8",
+          "date": "09.08.2023",
+          "name": "ESC Volunteers",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_2.jpg",
+          "moreInfo": "CTA",
+          "rating": "4"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Zeynep Cebici",
+      "info": "20 Години, Турција",
+      "image": "/images/volunteers/4.png",
+      "description": "Hello! I’m Zeynep. I am 20. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures.",
+      "projects": [
+        {
+          "id": "0",
+          "name": "АКТИВНОСТ ECO-ACTION",
+          "date": "25.08.2023",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_2.jpg",
+          "moreInfo": "CTA",
+          "rating": "2"
+        },
+        {
+          "id": "1",
+          "date": "22.08.2023",
+          "name": "BUILD YOUR STRENGTH",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_3.jpg",
+          "moreInfo": "CTA",
+          "rating": "3"
+        },
+        {
+          "id": "2",
+          "date": "15.08.2023",
+          "name": "ЛЕТЕН КАМП",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_4.jpg",
+          "moreInfo": "CTA",
+          "rating": "4"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Merve Oskan",
+      "info": "20 Години, Турција",
+      "image": "/images/volunteers/5.png",
+      "description": "Hello! I’m Merve. I am 20. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures.",
+      "projects": [
+        {
+          "id": "6",
+          "date": "17.07.2023",
+          "name": "АКТИВНОСТ ECO-ACTION",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_4.jpg",
+          "moreInfo": "CTA",
+          "rating": "2"
+        },
+        {
+          "id": "7",
+          "date": "16.07.2023",
+          "name": "ESC Volunteers",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_4.jpg",
+          "moreInfo": "CTA",
+          "rating": "3"
+        },
+        {
+          "id": "8",
+          "date": "09.08.2023",
+          "name": "ESC Volunteers",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_2.jpg",
+          "moreInfo": "CTA",
+          "rating": "4"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Melek Cakan",
+      "info": "20 Години, Турција",
+      "image": "/images/volunteers/6.png",
+      "description": "Hello! I’m Melek. I am 20. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures.",
+      "projects": [
+        {
+          "id": "3",
+          "date": "25.07.2023",
+          "name": "АКТИВНОСТ ECO-ACTION",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_2.jpg",
+          "moreInfo": "CTA",
+          "rating": "3"
+        },
+        {
+          "id": "4",
+          "date": "21.06.2023",
+          "name": "АКТИВНОСТ ECO-ACTION",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_2.jpg",
+          "moreInfo": "CTA",
+          "rating": "2"
+        },
+        {
+          "id": "5",
+          "date": "18.06.2023",
+          "name": "АКТИВНОСТ ECO-ACTION",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_4.jpg",
+          "moreInfo": "CTA",
+          "rating": "1"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Melisa Pektas",
+      "info": "23 Години, Турција",
+      "image": "/images/volunteers/7.png",
+      "description": "Hello! I’m Melisa. I am 23. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures.",
+      "projects": [
+        {
+          "id": "6",
+          "date": "17.07.2023",
+          "name": "АКТИВНОСТ ECO-ACTION",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_4.jpg",
+          "moreInfo": "CTA",
+          "rating": "2"
+        },
+        {
+          "id": "7",
+          "date": "16.07.2023",
+          "name": "ESC Volunteers",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_4.jpg",
+          "moreInfo": "CTA",
+          "rating": "3"
+        },
+        {
+          "id": "8",
+          "date": "09.08.2023",
+          "name": "ESC Volunteers",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_2.jpg",
+          "moreInfo": "CTA",
+          "rating": "4"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Manon Lacoste",
+      "info": "21 Години, Франција",
+      "image": "/images/volunteers/8.png",
+      "description": "Hello! I’m Manon. I am 21. I am studying in department of law in France. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures.",
+      "projects": [
+        {
+          "id": "6",
+          "date": "17.07.2023",
+          "name": "АКТИВНОСТ ECO-ACTION",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_4.jpg",
+          "moreInfo": "CTA",
+          "rating": "2"
+        },
+        {
+          "id": "7",
+          "date": "16.07.2023",
+          "name": "ESC Volunteers",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_4.jpg",
+          "moreInfo": "CTA",
+          "rating": "3"
+        },
+        {
+          "id": "8",
+          "date": "09.08.2023",
+          "name": "ESC Volunteers",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_2.jpg",
+          "moreInfo": "CTA",
+          "rating": "4"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Lisa Simone",
+      "info": "24 Години, Франција",
+      "image": "/images/volunteers/9.png",
+      "description": "Hello! I’m Lisa. I am 24. I am studying in department of law in France. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures.",
+      "projects": [
+        {
+          "id": "0",
+          "name": "АКТИВНОСТ ECO-ACTION",
+          "date": "25.08.2023",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_2.jpg",
+          "moreInfo": "CTA",
+          "rating": "2"
+        },
+        {
+          "id": "1",
+          "date": "22.08.2023",
+          "name": "BUILD YOUR STRENGTH",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_3.jpg",
+          "moreInfo": "CTA",
+          "rating": "3"
+        },
+        {
+          "id": "2",
+          "date": "15.08.2023",
+          "name": "ЛЕТЕН КАМП",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_4.jpg",
+          "moreInfo": "CTA",
+          "rating": "4"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Kaan Algin",
+      "info": "23 Години, Турција",
+      "image": "/images/volunteers/10.png",
+      "description": "Hello! I’m Kaan. I am 23. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures.",
+      "projects": [
+        {
+          "id": "3",
+          "date": "25.07.2023",
+          "name": "АКТИВНОСТ ECO-ACTION",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_2.jpg",
+          "moreInfo": "CTA",
+          "rating": "3"
+        },
+        {
+          "id": "4",
+          "date": "21.06.2023",
+          "name": "АКТИВНОСТ ECO-ACTION",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_2.jpg",
+          "moreInfo": "CTA",
+          "rating": "2"
+        },
+        {
+          "id": "5",
+          "date": "18.06.2023",
+          "name": "АКТИВНОСТ ECO-ACTION",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_4.jpg",
+          "moreInfo": "CTA",
+          "rating": "1"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Metehan Cam",
+      "info": "23 Години, Турција",
+      "image": "/images/volunteers/11.png",
+      "description": "Hello! I’m Metehan. I am 23. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures.",
+      "projects": [
+        {
+          "id": "6",
+          "date": "17.07.2023",
+          "name": "АКТИВНОСТ ECO-ACTION",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_4.jpg",
+          "moreInfo": "CTA",
+          "rating": "2"
+        },
+        {
+          "id": "7",
+          "date": "16.07.2023",
+          "name": "ESC Volunteers",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_4.jpg",
+          "moreInfo": "CTA",
+          "rating": "3"
+        },
+        {
+          "id": "8",
+          "date": "09.08.2023",
+          "name": "ESC Volunteers",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_2.jpg",
+          "moreInfo": "CTA",
+          "rating": "4"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Ali Karabay",
+      "info": "29 Години, Турција",
+      "image": "/images/volunteers/12.png",
+      "description": "Hello! I’m Ali. I am 29. I am studying in department of law in Turkey, Istanbul. This is my first experience in project like this one so I am pretty excited about working and spending time with other volunteers. I love team projects and doing something together. Also I liked Macedonia and Skopje. This city has great nature and statues. I wonder how we will work and spending amazing time with others when I meet with new people from other cultures.",
+      "projects": [
+        {
+          "id": "0",
+          "name": "АКТИВНОСТ ECO-ACTION",
+          "date": "25.08.2023",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_2.jpg",
+          "moreInfo": "CTA",
+          "rating": "2"
+        },
+        {
+          "id": "1",
+          "date": "22.08.2023",
+          "name": "BUILD YOUR STRENGTH",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_3.jpg",
+          "moreInfo": "CTA",
+          "rating": "3"
+        },
+        {
+          "id": "2",
+          "date": "15.08.2023",
+          "name": "ЛЕТЕН КАМП",
+          "title": "Lorem ipsum dolor sit amet consectetur",
+          "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+          "image": "/images/news/homepage_card_4.jpg",
+          "moreInfo": "CTA",
+          "rating": "4"
+        }
+      ]
+    }
+  ],
+  "ourTeam": [
+    {
+      "id": "0",
+      "name": "Матео Тренкоски",
+      "position": "практикант во ЦМА Крик",
+      "image": "/images/ourTeam/mateo-trenkoski.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos illo hic voluptates maiores quibusdam similique, deserunt sit iure odio esse sequi commodi incidunt velit architecto, accusamus libero blanditiis reprehenderit quam temporibus tempora quidem aspernatur cupiditate omnis praesentium! Ex similique eius velit perferendis harum? Incidunt voluptatem enim provident a quod, deserunt dignissimos magni eaque minus recusandae suscipit ex, nulla natus iure reprehenderit est consequuntur possimus beatae accusantium quibusdam. Nostrum aspernatur facere necessitatibus, quasi consequuntur quos expedita adipisci enim temporibus, nemo laborum.",
+      "linkedin": "https://www.linkedin.com"
+    },
+    {
+      "id": "1",
+      "name": "Игор Димовски",
+      "position": "Координатор за волонтери во ЦМА-Крик",
+      "image": "/images/ourTeam/igor-dimovski.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos illo hic voluptates maiores quibusdam similique, deserunt sit iure odio esse sequi commodi incidunt velit architecto, accusamus libero blanditiis reprehenderit quam temporibus tempora quidem aspernatur cupiditate omnis praesentium! Ex similique eius velit perferendis harum? Incidunt voluptatem enim provident a quod, deserunt dignissimos magni eaque minus recusandae suscipit ex, nulla natus iure reprehenderit est consequuntur possimus beatae accusantium quibusdam. Nostrum aspernatur facere necessitatibus, quasi consequuntur quos expedita adipisci enim temporibus, nemo laborum.",
+      "linkedin": "https://www.linkedin.com"
+    },
+    {
+      "id": "2",
+      "name": "Сара Димоска",
+      "position": "Координатор во ЦМА-Крик",
+      "image": "/images/ourTeam/sara-dimoska.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos illo hic voluptates maiores quibusdam similique, deserunt sit iure odio esse sequi commodi incidunt velit architecto, accusamus libero blanditiis reprehenderit quam temporibus tempora quidem aspernatur cupiditate omnis praesentium! Ex similique eius velit perferendis harum? Incidunt voluptatem enim provident a quod, deserunt dignissimos magni eaque minus recusandae suscipit ex, nulla natus iure reprehenderit est consequuntur possimus beatae accusantium quibusdam. Nostrum aspernatur facere necessitatibus, quasi consequuntur quos expedita adipisci enim temporibus, nemo laborum.",
+      "linkedin": "https://www.linkedin.com"
+    }
+  ],
+  "menagment": [
+    {
+      "id": "3",
+      "name": "Lorem Ipsum Dolor Sit",
+      "position": "Lorem ipsum dolor sit amet consectetur",
+      "image": "/images/ourTeam/1.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos illo hic voluptates maiores quibusdam similique, deserunt sit iure odio esse sequi commodi incidunt velit architecto, accusamus libero blanditiis reprehenderit quam temporibus tempora quidem aspernatur."
+    },
+    {
+      "id": "4",
+      "name": "Lorem Ipsum Dolor Sit",
+      "position": "Lorem ipsum dolor sit amet consectetur",
+      "image": "/images/ourTeam/2.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos illo hic voluptates maiores quibusdam similique, deserunt sit iure odio esse sequi commodi incidunt velit architecto, accusamus libero blanditiis reprehenderit quam temporibus tempora quidem aspernatur."
+    },
+    {
+      "id": "5",
+      "name": "Lorem Ipsum Dolor Sit",
+      "position": "Lorem ipsum dolor sit amet consectetur",
+      "image": "/images/ourTeam/3.png",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos illo hic voluptates maiores quibusdam similique, deserunt sit iure odio esse sequi commodi incidunt velit architecto, accusamus libero blanditiis reprehenderit quam temporibus tempora quidem aspernatur."
+    }
+  ],
+  "projectsData": [
+    {
+      "id": "0",
+      "name": "ECO Action",
+      "img": "/images/projects/project07.png",
+      "status": "current",
+      "progress": "20%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "1",
+      "name": "Летен Камп",
+      "img": "/images/projects/project.08.png",
+      "status": "current",
+      "progress": "20%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "2",
+      "name": "Летен Камп",
+      "img": "/images/projects/project.09.png",
+      "status": "current",
+      "progress": "30%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "3",
+      "name": "ECO Action",
+      "img": "/images/projects/project.10.png",
+      "status": "current",
+      "progress": "60%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "4",
+      "name": "BUILD YOUR STRENGTH",
+      "img": "/images/projects/project06.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "5",
+      "name": "ESC Volunteers",
+      "img": "/images/projects/project11.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "6",
+      "name": "Летен Камп",
+      "img": "/images/projects/project05.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "7",
+      "name": "ESC Volunteers",
+      "img": "/images/projects/project02.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "8",
+      "name": "BUILD YOUR STRENGTH",
+      "img": "/images/projects/project01.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "9",
+      "name": "BUILD YOUR STRENGTH",
+      "img": "/images/projects/project03.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "10",
+      "name": "ЛЕТЕН КАМП",
+      "img": "/images/projects/project05.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "11",
+      "name": "ESC Volunteers",
+      "img": "/images/projects/project04.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "12",
+      "name": "ECO Action",
+      "img": "/images/projects/project01.png",
+      "status": "current",
+      "progress": "20%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "13",
+      "name": "Летен Камп",
+      "img": "/images/projects/project03.png",
+      "status": "current",
+      "progress": "20%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "14",
+      "name": "Летен Камп",
+      "img": "/images/projects/project05.png",
+      "status": "current",
+      "progress": "30%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "15",
+      "name": "ECO Action",
+      "img": "/images/projects/project02.png",
+      "status": "current",
+      "progress": "60%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "16",
+      "name": "BUILD YOUR STRENGTH",
+      "img": "/images/projects/project06.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "17",
+      "name": "ESC Volunteers",
+      "img": "/images/projects/project11.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "18",
+      "name": "Летен Камп",
+      "img": "/images/projects/project06.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "19",
+      "name": "ESC Volunteers",
+      "img": "/images/projects/project.10.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "20",
+      "name": "BUILD YOUR STRENGTH",
+      "img": "/images/projects/project01.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "21",
+      "name": "BUILD YOUR STRENGTH",
+      "img": "/images/projects/project.08.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "22",
+      "name": "ЛЕТЕН КАМП",
+      "img": "/images/projects/project.09.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "23",
+      "name": "ESC Volunteers",
+      "img": "/images/projects/project04.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "24",
+      "name": "ECO Action",
+      "img": "/images/projects/project07.png",
+      "status": "current",
+      "progress": "20%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "25",
+      "name": "Летен Камп",
+      "img": "/images/projects/project.08.png",
+      "status": "current",
+      "progress": "20%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "26",
+      "name": "Летен Камп",
+      "img": "/images/projects/project.09.png",
+      "status": "current",
+      "progress": "30%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "27",
+      "name": "ECO Action",
+      "img": "/images/projects/project.10.png",
+      "status": "current",
+      "progress": "60%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "28",
+      "name": "BUILD YOUR STRENGTH",
+      "img": "/images/projects/project06.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "29",
+      "name": "ESC Volunteers",
+      "img": "/images/projects/project11.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "30",
+      "name": "Летен Камп",
+      "img": "/images/projects/project05.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "31",
+      "name": "ESC Volunteers",
+      "img": "/images/projects/project02.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "32",
+      "name": "BUILD YOUR STRENGTH",
+      "img": "/images/projects/project01.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "33",
+      "name": "BUILD YOUR STRENGTH",
+      "img": "/images/projects/project03.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "34",
+      "name": "ЛЕТЕН КАМП",
+      "img": "/images/projects/project05.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "35",
+      "name": "ESC Volunteers",
+      "img": "/images/projects/project04.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "36",
+      "name": "ECO Action",
+      "img": "/images/projects/project01.png",
+      "status": "current",
+      "progress": "20%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "37",
+      "name": "Летен Камп",
+      "img": "/images/projects/project03.png",
+      "status": "current",
+      "progress": "20%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "38",
+      "name": "Летен Камп",
+      "img": "/images/projects/project05.png",
+      "status": "current",
+      "progress": "30%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "39",
+      "name": "ECO Action",
+      "img": "/images/projects/project02.png",
+      "status": "current",
+      "progress": "60%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "40",
+      "name": "BUILD YOUR STRENGTH",
+      "img": "/images/projects/project06.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "41",
+      "name": "ESC Volunteers",
+      "img": "/images/projects/project11.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "42",
+      "name": "Летен Камп",
+      "img": "/images/projects/project05.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "43",
+      "name": "ESC Volunteers",
+      "img": "/images/projects/project02.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "44",
+      "name": "BUILD YOUR STRENGTH",
+      "img": "/images/projects/project01.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "45",
+      "name": "BUILD YOUR STRENGTH",
+      "img": "/images/projects/project03.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "46",
+      "name": "ЛЕТЕН КАМП",
+      "img": "/images/projects/project05.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    },
+    {
+      "id": "47",
+      "name": "ESC Volunteers",
+      "img": "/images/projects/project04.png",
+      "status": "finished",
+      "progress": "100%",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "goals": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "intendedFor": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti nulla dolorum dolorem saepe, repudiandae consequuntur dolor dignissimos voluptatem autem!",
+      "image_second": "/images/projects/intended.png"
+    }
+  ],
+
+  "newsletter": [
+    {
+      "id": "0",
+      "img": "/images/news/newsletter1.png",
+      "date": "Август, 2023",
+      "description": "Lorem ipsum dolor sit amet consectetur. In natoque euismod enim cursus velit in. Libero nisi morbi sed libero egestas."
+    },
+    {
+      "id": "1",
+      "img": "/images/news/newsletter2.png",
+      "date": "Јули, 2023",
+      "description": "Lorem ipsum dolor sit amet consectetur. In natoque euismod enim cursus velit in. Libero nisi morbi sed libero egestas."
+    },
+    {
+      "id": "2",
+      "img": "/images/news/newsletter1.png",
+      "date": "Јуни, 2023",
+      "description": "Lorem ipsum dolor sit amet consectetur. In natoque euismod enim cursus velit in. Libero nisi morbi sed libero egestas."
+    }
+  ],
+
+  "news": [
+    {
+      "id": "0",
+      "name": "АКТИВНОСТ ECO-ACTION",
+      "date": "25.08.2023",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "image": "/images/news/homepage_card_2.jpg",
+      "moreInfo": "CTA",
+      "rating": "2"
+    },
+    {
+      "id": "1",
+      "date": "22.08.2023",
+      "name": "BUILD YOUR STRENGTH",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "image": "/images/news/homepage_card_3.jpg",
+      "moreInfo": "CTA",
+      "rating": "3"
+    },
+    {
+      "id": "2",
+      "date": "15.08.2023",
+      "name": "ЛЕТЕН КАМП",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "image": "/images/news/homepage_card_4.jpg",
+      "moreInfo": "CTA",
+      "rating": "4"
+    },
+    {
+      "id": "3",
+      "date": "25.07.2023",
+      "name": "АКТИВНОСТ ECO-ACTION",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "image": "/images/news/homepage_card_2.jpg",
+      "moreInfo": "CTA",
+      "rating": "3"
+    },
+    {
+      "id": "4",
+      "date": "21.06.2023",
+      "name": "АКТИВНОСТ ECO-ACTION",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "image": "/images/news/homepage_card_2.jpg",
+      "moreInfo": "CTA",
+      "rating": "2"
+    },
+    {
+      "id": "5",
+      "date": "18.06.2023",
+      "name": "АКТИВНОСТ ECO-ACTION",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "image": "/images/news/homepage_card_4.jpg",
+      "moreInfo": "CTA",
+      "rating": "1"
+    },
+    {
+      "id": "6",
+      "date": "17.07.2023",
+      "name": "АКТИВНОСТ ECO-ACTION",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "image": "/images/news/homepage_card_4.jpg",
+      "moreInfo": "CTA",
+      "rating": "2"
+    },
+    {
+      "id": "7",
+      "date": "16.07.2023",
+      "name": "ESC Volunteers",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "image": "/images/news/homepage_card_4.jpg",
+      "moreInfo": "CTA",
+      "rating": "3"
+    },
+    {
+      "id": "8",
+      "date": "09.08.2023",
+      "name": "ESC Volunteers",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "image": "/images/news/homepage_card_2.jpg",
+      "moreInfo": "CTA",
+      "rating": "4"
+    },
+    {
+      "id": "9",
+      "date": "08.08.2023",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "name": "ЛЕТЕН КАМП",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "image": "/images/news/homepage_card_4.jpg",
+      "moreInfo": "CTA",
+      "rating": "2"
+    },
+    {
+      "id": "10",
+      "date": "07.08.2023",
+      "name": "АКТИВНОСТ ECO-ACTION",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "image": "/images/news/news1.png",
+      "moreInfo": "CTA",
+      "rating": "3"
+    },
+    {
+      "id": "11",
+      "date": "06.08.2023",
+      "name": "BUILD YOUR STRENGTH",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "image": "/images/news/homepage_card_3.jpg",
+      "moreInfo": "CTA",
+      "rating": "4"
+    },
+    {
+      "id": "12",
+      "date": "05.08.2023",
+      "name": "ESC Volunteers",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "image": "/images/news/news1.png",
+      "moreInfo": "CTA",
+      "rating": "4"
+    },
+    {
+      "id": "15",
+      "image": "/images/news/news1.png",
+      "date": "03.08.2023",
+      "name": "ESC Volunteers",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "moreInfo": "CTA",
+      "rating": "5"
+    },
+    {
+      "id": "16",
+      "image": "/images/news/news2.png",
+      "date": "30.07.2023",
+      "name": "BUILD YOUR STRENGTH",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "moreInfo": "CTA",
+      "rating": "5"
+    },
+    {
+      "id": "17",
+      "image": "/images/news/news3.png",
+      "date": "27.07.2023",
+      "name": "BUILD YOUR STRENGTH",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "moreInfo": "CTA",
+      "rating": "5"
+    },
+    {
+      "id": "18",
+      "date": "17.07.2023",
+      "name": "АКТИВНОСТ ECO-ACTION",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "image": "/images/news/homepage_card_4.jpg",
+      "moreInfo": "CTA",
+      "rating": "2"
+    },
+    {
+      "id": "19",
+      "date": "16.07.2023",
+      "name": "ESC Volunteers",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "image": "/images/news/homepage_card_4.jpg",
+      "moreInfo": "CTA",
+      "rating": "3"
+    },
+    {
+      "id": "20",
+      "date": "09.08.2023",
+      "name": "ESC Volunteers",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "image": "/images/news/homepage_card_2.jpg",
+      "moreInfo": "CTA",
+      "rating": "4"
+    },
+    {
+      "id": "21",
+      "date": "08.08.2023",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "name": "ЛЕТЕН КАМП",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "image": "/images/news/homepage_card_4.jpg",
+      "moreInfo": "CTA",
+      "rating": "2"
+    },
+    {
+      "id": "22",
+      "date": "07.08.2023",
+      "name": "АКТИВНОСТ ECO-ACTION",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "image": "/images/news/news1.png",
+      "moreInfo": "CTA",
+      "rating": "3"
+    },
+    {
+      "id": "23",
+      "date": "06.08.2023",
+      "name": "BUILD YOUR STRENGTH",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "image": "/images/news/homepage_card_3.jpg",
+      "moreInfo": "CTA",
+      "rating": "4"
+    },
+    {
+      "id": "24",
+      "date": "05.08.2023",
+      "name": "ESC Volunteers",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "image": "/images/news/news1.png",
+      "moreInfo": "CTA",
+      "rating": "4"
+    },
+    {
+      "id": "25",
+      "image": "/images/news/news1.png",
+      "date": "03.08.2023",
+      "name": "ESC Volunteers",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "moreInfo": "CTA",
+      "rating": "2"
+    },
+    {
+      "id": "26",
+      "image": "/images/news/news2.png",
+      "date": "03.08.2023",
+      "name": "BUILD YOUR STRENGTH",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "moreInfo": "CTA",
+      "rating": "4"
+    },
+    {
+      "id": "27",
+      "image": "/images/news/news3.png",
+      "date": "03.08.2023",
+      "name": "BUILD YOUR STRENGTH",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "moreInfo": "CTA",
+      "rating": "3"
+    },
+    {
+      "id": "28",
+      "date": "07.08.2023",
+      "name": "АКТИВНОСТ ECO-ACTION",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "image": "/images/news/news1.png",
+      "moreInfo": "CTA",
+      "rating": "3"
+    },
+    {
+      "id": "29",
+      "date": "06.08.2023",
+      "name": "BUILD YOUR STRENGTH",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "image": "/images/news/homepage_card_3.jpg",
+      "moreInfo": "CTA",
+      "rating": "4"
+    },
+    {
+      "id": "30",
+      "date": "05.08.2023",
+      "name": "ESC Volunteers",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "image": "/images/news/news1.png",
+      "moreInfo": "CTA",
+      "rating": "4"
+    },
+    {
+      "id": "31",
+      "image": "/images/news/news1.png",
+      "date": "03.08.2023",
+      "name": "ESC Volunteers",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "moreInfo": "CTA",
+      "rating": "2"
+    },
+    {
+      "id": "32",
+      "image": "/images/news/news2.png",
+      "date": "03.08.2023",
+      "name": "BUILD YOUR STRENGTH",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "moreInfo": "CTA",
+      "rating": "4"
+    },
+    {
+      "id": "33",
+      "image": "/images/news/news3.png",
+      "date": "03.08.2023",
+      "name": "BUILD YOUR STRENGTH",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "moreInfo": "CTA",
+      "rating": "3"
+    },
+    {
+      "id": "34",
+      "image": "/images/news/news2.png",
+      "date": "03.08.2023",
+      "name": "BUILD YOUR STRENGTH",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "moreInfo": "CTA",
+      "rating": "4"
+    },
+    {
+      "id": "35",
+      "image": "/images/news/news3.png",
+      "date": "03.08.2023",
+      "name": "BUILD YOUR STRENGTH",
+      "title": "Lorem ipsum dolor sit amet consectetur",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quia cumque corporis magni",
+      "moreInfo": "CTA",
+      "rating": "3"
+    }
+  ],
+
+  "partners": [
+    {
+      "id": "0",
+      "image": "/images/volunteersCenter.png",
+      "name": "VolunteersCenter"
+    },
+    {
+      "id": "1",
+      "image": "/images/mladiHub.png",
+      "name": "Mladi Hub"
+    },
+    {
+      "id": "2",
+      "image": "/images/nmsmakedonija 1.png",
+      "name": "Nacionalen sovet na Makedonija"
+    },
+    {
+      "id": "3",
+      "image": "/images/stella-network 2.png",
+      "name": "Stella Network"
+    },
+    {
+      "id": "4",
+      "image": "/images/volunteersCenter.png",
+      "name": "VolunteersCenter"
+    },
+    {
+      "id": "5",
+      "image": "/images/mladiHub.png",
+      "name": "Mladi Hub"
+    },
+    {
+      "id": "6",
+      "image": "/images/nmsmakedonija 1.png",
+      "name": "Nacionalen sovet na Makedonija"
+    },
+    {
+      "id": "7",
+      "image": "/images/stella-network 2.png",
+      "name": "Stella Network"
+    },
+    {
+      "id": "8",
+      "image": "/images/volunteersCenter.png",
+      "name": "VolunteersCenter"
+    }
+  ],
+  "annualReports": [
+    {
+      "id": "0",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2023"
+    },
+    {
+      "id": "1",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2023"
+    },
+    {
+      "id": "2",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2023"
+    },
+    {
+      "id": "3",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2023"
+    },
+    {
+      "id": "4",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2023"
+    },
+    {
+      "id": "5",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2023"
+    },
+    {
+      "id": "6",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2023"
+    },
+    {
+      "id": "7",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2023"
+    },
+    {
+      "id": "8",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2022"
+    },
+    {
+      "id": "9",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2022"
+    },
+    {
+      "id": "10",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2022"
+    },
+    {
+      "id": "11",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2022"
+    },
+    {
+      "id": "12",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2022"
+    },
+    {
+      "id": "13",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2022"
+    },
+    {
+      "id": "14",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2022"
+    },
+    {
+      "id": "15",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2022"
+    },
+    {
+      "id": "16",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2021"
+    },
+    {
+      "id": "17",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2021"
+    },
+    {
+      "id": "18",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2021"
+    },
+    {
+      "id": "19",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2021"
+    },
+    {
+      "id": "20",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2021"
+    },
+    {
+      "id": "21",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2021"
+    },
+    {
+      "id": "22",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2021"
+    },
+    {
+      "id": "23",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2021"
+    }
+  ],
+  "financialStetament": [
+    {
+      "id": "0",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2023"
+    },
+    {
+      "id": "1",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2023"
+    },
+    {
+      "id": "2",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2023"
+    },
+    {
+      "id": "3",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2023"
+    },
+    {
+      "id": "4",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2023"
+    },
+    {
+      "id": "5",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2023"
+    },
+    {
+      "id": "6",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2023"
+    },
+    {
+      "id": "7",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2023"
+    },
+    {
+      "id": "8",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2022"
+    },
+    {
+      "id": "9",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2022"
+    },
+    {
+      "id": "10",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2022"
+    },
+    {
+      "id": "11",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2022"
+    },
+    {
+      "id": "12",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2022"
+    },
+    {
+      "id": "13",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2022"
+    },
+    {
+      "id": "14",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2022"
+    },
+    {
+      "id": "15",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2022"
+    },
+    {
+      "id": "16",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2021"
+    },
+    {
+      "id": "17",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2021"
+    },
+    {
+      "id": "18",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2021"
+    },
+    {
+      "id": "19",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2021"
+    },
+    {
+      "id": "20",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2021"
+    },
+    {
+      "id": "21",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2021"
+    },
+    {
+      "id": "22",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2021"
+    },
+    {
+      "id": "23",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2021"
+    }
+  ],
+  "politicalReports": [
+    {
+      "id": "0",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2023"
+    },
+    {
+      "id": "1",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2023"
+    },
+    {
+      "id": "2",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2023"
+    },
+    {
+      "id": "3",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2023"
+    },
+    {
+      "id": "4",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2023"
+    },
+    {
+      "id": "5",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2023"
+    },
+    {
+      "id": "6",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2023"
+    },
+    {
+      "id": "7",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2023"
+    },
+    {
+      "id": "8",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2022"
+    },
+    {
+      "id": "9",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2022"
+    },
+    {
+      "id": "10",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2022"
+    },
+    {
+      "id": "11",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2022"
+    },
+    {
+      "id": "12",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2022"
+    },
+    {
+      "id": "13",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2022"
+    },
+    {
+      "id": "14",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2022"
+    },
+    {
+      "id": "15",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2022"
+    },
+    {
+      "id": "16",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2021"
+    },
+    {
+      "id": "17",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2021"
+    },
+    {
+      "id": "18",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2021"
+    },
+    {
+      "id": "19",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2021"
+    },
+    {
+      "id": "20",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2021"
+    },
+    {
+      "id": "21",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2021"
+    },
+    {
+      "id": "22",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2021"
+    },
+    {
+      "id": "23",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet ",
+      "year": "2021"
+    }
+  ],
+  "products": [
+    {
+      "id": "0",
+      "name": "Прстен",
+      "material": "Од алуминиумска жица",
+      "price": "300 MKD",
+      "image": "/images/e-shop/ring.png",
+      "image_second": "/images/e-shop/ring.png",
+      "image_third": "/images/e-shop/ring.png",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ea, dolore a explicabo voluptatibus consequuntur optio ratione laboriosam itaque, eum omnis, excepturi cupiditate. Fugit quaerat incidunt modi sint placeat et, deleniti adipisci."
+    },
+
+    {
+      "id": "1",
+      "name": "Нараквица",
+      "material": "Од алуминиумска жица и мониста",
+      "price": "350 MKD",
+      "image": "/images/e-shop/bracelet-2.png",
+      "image_second": "/images/e-shop/bracelet.png",
+      "image_third": "/images/e-shop/bracelet-2.png",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ea, dolore a explicabo voluptatibus consequuntur optio ratione laboriosam itaque, eum omnis, excepturi cupiditate. Fugit quaerat incidunt modi sint placeat et, deleniti adipisci."
+    },
+    {
+      "id": "3",
+      "name": "Прстен",
+      "material": "Од алуминиумска жица и мониста",
+      "price": "300 MKD",
+      "image": "/images/e-shop/ring-3.png",
+      "image_third": "/images/e-shop/ring-5.png",
+      "image_second": "/images/e-shop/ring-4.png",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ea, dolore a explicabo voluptatibus consequuntur optio ratione laboriosam itaque, eum omnis, excepturi cupiditate. Fugit quaerat incidunt modi sint placeat et, deleniti adipisci."
+    },
+    {
+      "id": "4",
+      "name": "Комплет обетки и прстен",
+      "material": "Aлуминиумска жица и мониста",
+      "price": "500 MKD",
+      "image": "/images/e-shop/irring-7.png",
+      "image_second": "/images/e-shop/irring-7.png",
+      "image_third": "/images/e-shop/irring-7.png",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ea, dolore a explicabo voluptatibus consequuntur optio ratione laboriosam itaque, eum omnis, excepturi cupiditate. Fugit quaerat incidunt modi sint placeat et, deleniti adipisci."
+    },
+    {
+      "id": "5",
+      "name": "Единечна обетка",
+      "material": "Aлуминиумска жица и мониста",
+      "price": "200 MKD",
+      "image": "/images/e-shop/irring-1.jpg",
+      "image_second": "/images/e-shop/irring-1.jpg",
+      "image_third": "/images/e-shop/irring-1.jpg",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ea, dolore a explicabo voluptatibus consequuntur optio ratione laboriosam itaque, eum omnis, excepturi cupiditate. Fugit quaerat incidunt modi sint placeat et, deleniti adipisci."
+    },
+    {
+      "id": "6",
+      "name": "Комплет Обетки и Прстен",
+      "material": "Aлуминиумска жица и мониста",
+      "price": "200 MKD",
+      "image": "/images/e-shop/irring-3.jpg",
+      "image_second": "/images/e-shop/ring-2.jpg",
+      "image_third": "/images/e-shop/irring-2.jpg",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ea, dolore a explicabo voluptatibus consequuntur optio ratione laboriosam itaque, eum omnis, excepturi cupiditate. Fugit quaerat incidunt modi sint placeat et, deleniti adipisci."
+    },
+    {
+      "id": "7",
+      "name": "Нараквица",
+      "material": "Од алуминиумска жица и мониста",
+      "price": "350 MKD",
+      "image": "/images/e-shop/bracelet.png",
+      "image_second": "/images/e-shop/bracelet.png",
+      "image_third": "/images/e-shop/bracelet.png",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ea, dolore a explicabo voluptatibus consequuntur optio ratione laboriosam itaque, eum omnis, excepturi cupiditate. Fugit quaerat incidunt modi sint placeat et, deleniti adipisci."
+    },
+    {
+      "id": "8",
+      "name": "Обетки",
+      "material": "Од алуминиумска жица",
+      "price": "350 MKD",
+      "image": "/images/e-shop/irring-6.png",
+      "image_second": "/images/e-shop/irring-5.png",
+      "image_third": "/images/e-shop/irring-6.png",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ea, dolore a explicabo voluptatibus consequuntur optio ratione laboriosam itaque, eum omnis, excepturi cupiditate. Fugit quaerat incidunt modi sint placeat et, deleniti adipisci."
+    },
+    {
+      "id": "13",
+      "name": "Обетки",
+      "material": "Од алуминиумска жица",
+      "price": "350 MKD",
+      "image": "/images/e-shop/irring-4.jpg",
+      "image_second": "/images/e-shop/irring-4.jpg",
+      "image_third": "/images/e-shop/irring-4.jpg",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ea, dolore a explicabo voluptatibus consequuntur optio ratione laboriosam itaque, eum omnis, excepturi cupiditate. Fugit quaerat incidunt modi sint placeat et, deleniti adipisc."
+    },
+    {
+      "id": "12",
+      "name": "Прстен",
+      "material": "Од алуминиумска жица и мониста",
+      "price": "300 MKD",
+      "image": "/images/e-shop/ring-2.jpg",
+      "image_second": "/images/e-shop/ring-2.jpg",
+      "image_third": "/images/e-shop/ring-2.jpg",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ea, dolore a explicabo voluptatibus consequuntur optio ratione laboriosam itaque, eum omnis, excepturi cupiditate. Fugit quaerat incidunt modi sint placeat et, deleniti adipisci."
+    },
+    {
+      "id": "9",
+      "name": "Прстен",
+      "material": "Од алуминиумска жица и мониста",
+      "price": "300 MKD",
+      "image": "/images/e-shop/ring-4.png",
+      "image_second": "/images/e-shop/ring-5.png",
+      "image_third": "/images/e-shop/ring-3.png",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ea, dolore a explicabo voluptatibus consequuntur optio ratione laboriosam itaque, eum omnis, excepturi cupiditate. Fugit quaerat incidunt modi sint placeat et, deleniti adipisci."
+    },
+    {
+      "id": "10",
+      "name": "Обетки",
+      "material": "Од алуминиумска жица",
+      "price": "350 MKD",
+      "image": "/images/e-shop/irring-5.png",
+      "image_second": "/images/e-shop/irring-6.png",
+      "image_third": "/images/e-shop/irring-5.png",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ea, dolore a explicabo voluptatibus consequuntur optio ratione laboriosam itaque, eum omnis, excepturi cupiditate. Fugit quaerat incidunt modi sint placeat et, deleniti adipisci."
+    },
+    {
+      "id": "11",
+      "name": "Прстен",
+      "material": "Од алуминиумска жица и мониста",
+      "price": "300 MKD",
+      "image": "/images/e-shop/ring-5.png",
+      "image_second": "/images/e-shop/ring-4.png",
+      "image_third": "/images/e-shop/ring-3.png",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ea, dolore a explicabo voluptatibus consequuntur optio ratione laboriosam itaque, eum omnis, excepturi cupiditate. Fugit quaerat incidunt modi sint placeat et, deleniti adipisci."
+    }
+  ]
+}
