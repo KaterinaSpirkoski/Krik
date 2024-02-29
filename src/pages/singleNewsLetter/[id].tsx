@@ -73,8 +73,18 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   let data: NewsProps | null = null;
 
   if (params?.id) {
-    const res = await fetch(` http://localhost:5001/news/${params.id}`);
-    data = await res.json();
+    // const res = await fetch(` http://localhost:5001/news/${params.id}`);
+    // data = await res.json();
+
+    try {
+      const res = await fetch(` http://localhost:5001/news/${params.id}`);
+
+      if (res.ok) {
+        data = await res.json();
+      }
+    } catch (error) {
+      console.error("Error fetching data:", error);
+    }
   }
 
   return {
