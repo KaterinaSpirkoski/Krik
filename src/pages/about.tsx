@@ -58,7 +58,7 @@ const About: NextPage<Props> = ({ aboutData }) => {
               contrast ? "contrastOrangeText " : "defaultOrangeText "
             } ${oversized ? "l-oversized" : "HeadlineM"}`}
           >
-            {aboutData.second_title}
+            {aboutData.second_pretitle}
           </h3>
           <div className="text">
             <p className={` ${oversized ? "l-oversized-body" : "bodyL"}`}>
