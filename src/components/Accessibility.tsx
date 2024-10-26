@@ -1,4 +1,5 @@
 import { useAccessibility } from "@/contex/AccessibilityContext";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
 const Accessibility = () => {
@@ -200,10 +201,17 @@ const Accessibility = () => {
               className={`screen-reader  ${
                 isScreenReaderClicked ? "clicked" : "btn-inner"
               } ${contrast ? "cotrastOrangeBg  " : "defaultOrangeBg"}`}
-              onClick={handleScreenReaderButtonClick}
             >
-              <img src={screenReaderImage} alt="screen-reader" />
-              <p>Screen reader</p>
+              <Link
+                href={
+                  "https://chromewebstore.google.com/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl"
+                }
+                target="_blank"
+              >
+                {" "}
+                <img src={screenReaderImage} alt="screen-reader" />
+                <p>Screen reader</p>
+              </Link>
             </div>
           </div>
           <div className="wrapper">
