@@ -1,4 +1,5 @@
 import { useAccessibility } from "@/contex/AccessibilityContext";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
 const Accessibility = () => {
@@ -138,8 +139,10 @@ const Accessibility = () => {
 
   useEffect(() => {
     const handleMouseMove = (e: any) => {
+      const newX = window.innerWidth / 2;
+      const newY = Math.max(0, Math.min(e.clientY, window.innerHeight - 200));
       console.log("Mouse move event");
-      setMaskPosition({ x: e.clientX, y: e.clientY });
+      setMaskPosition({ x: newX, y: newY });
     };
 
     if (isReadingMaskActive) {
@@ -198,10 +201,17 @@ const Accessibility = () => {
               className={`screen-reader  ${
                 isScreenReaderClicked ? "clicked" : "btn-inner"
               } ${contrast ? "cotrastOrangeBg  " : "defaultOrangeBg"}`}
-              onClick={handleScreenReaderButtonClick}
             >
-              <img src={screenReaderImage} alt="screen-reader" />
-              <p>Screen reader</p>
+              <Link
+                href={
+                  "https://chromewebstore.google.com/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl"
+                }
+                target="_blank"
+              >
+                {" "}
+                <img src={screenReaderImage} alt="screen-reader" />
+                <p>Screen reader</p>
+              </Link>
             </div>
           </div>
           <div className="wrapper">
