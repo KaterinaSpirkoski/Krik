@@ -138,8 +138,10 @@ const Accessibility = () => {
 
   useEffect(() => {
     const handleMouseMove = (e: any) => {
+      const newX = window.innerWidth / 2;
+      const newY = Math.max(0, Math.min(e.clientY, window.innerHeight - 200));
       console.log("Mouse move event");
-      setMaskPosition({ x: e.clientX, y: e.clientY });
+      setMaskPosition({ x: newX, y: newY });
     };
 
     if (isReadingMaskActive) {

@@ -1,18 +1,18 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import ScreenMask from "@/components/ScreenMask";
 import { AccessibilityProvider } from "@/contex/AccessibilityContext";
+import ScreenMaskContext from "@/contex/ScreenMaskContext";
 import "@/styles/globals.scss";
 import type { AppProps } from "next/app";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <AccessibilityProvider>
-      <ScreenMask>
-        <Header />
+      <Header />
+      <ScreenMaskContext>
         <Component {...pageProps} />
-        <Footer />
-      </ScreenMask>
+      </ScreenMaskContext>
+      <Footer />
     </AccessibilityProvider>
   );
 }
